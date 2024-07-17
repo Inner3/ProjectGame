@@ -1,0 +1,24 @@
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 98%;
+    background-color: #282c34;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+    
+}
+.nav-left, .nav-right{
+    display: flex;
+    gap:20px;
+}
+.nav-right{
+    margin-left: auto;
+    max-width: 50%;
+    text-align: right; 
+}
+
